@@ -1,0 +1,108 @@
+.top_heading{
+    margin-inline: auto;
+
+}
+h1 {
+    width: 500px;
+    height: 120px;
+    border: 7px solid red;
+    border-radius: 15px;
+    color: red;
+    text-align: center;
+    font-style: italic;
+    box-shadow: 8px 8px blueviolet;
+    text-shadow: 2px 2px rgb(163, 158, 158);
+    position: relative;
+    left: 300px;
+    }
+    
+    .grid {
+        width: 80vw;
+        height: 700px;
+        border: 7px solid red;
+        margin-left: 100px;
+        display: grid;
+        grid-template-columns: auto auto;
+        text-align: center;
+    }
+
+    .grid-item {
+        width: 250px;
+        height: 220px;
+        border: 6px solid red;
+        border-radius: 10px;
+        margin: 20px;
+        color: rgb(122, 36, 36);
+        box-shadow: 8px 8px blueviolet;
+        text-shadow: 1.5px 1.5px rgb(163, 158, 158);
+        row-gap: 20px;
+        column-gap: 40px;
+    }
+   .position {
+       width: 400px;
+       height: 80px;
+       border: 5px solid red;
+       background-color: greenyellow;
+       border-radius: 15px;
+       text-align: center;
+       position: fixed;
+       left: 360px;
+       top: 440px;
+       display: flex;
+       justify-content: space-evenly;
+       
+   }
+
+   .grid1 {
+       width: 700px;
+       height: 500px;
+       border: 7px solid blueviolet;
+       margin-left: 100px;
+       background-color: green;
+       text-align: center;
+       margin-inline: auto;                          
+    }
+      
+    .welcomestore {
+        margin-inline: auto;
+        padding: 20px;
+    }
+
+   .grid-item1 {
+       width: 300px;
+       height: 200px;
+       border: 2px solid yellow;
+       background-color: yellow;
+       font-size: 10px;
+       margin-left: 30px;
+    }
+
+    .grid-item2 {
+        width: 300px;
+        height: 200px;
+        border: 2px solid yellow;
+        background-color: yellow;
+        font-size: 10px;
+        position: relative;
+        left: 370px;
+        bottom: 223px;
+    }
+
+    .grid-item3 {
+        width: 640px;
+        height: 220px;
+        border: 2px solid yellow;
+        background-color: yellow;
+        font-size: 12px;
+        align-items: center;
+        position: relative;
+        bottom: 230px;
+        left: 30px;
+         
+         
+    }
+     
+#image{
+    height: 140px;
+    padding-top: 40px;
+}
